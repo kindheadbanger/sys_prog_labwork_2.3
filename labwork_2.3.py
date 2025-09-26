@@ -16,4 +16,8 @@ def count_lines(path: str, extension: str) -> int:
     print(f"\total strings: {total_lines}")
     return total_lines
 
-count_lines("D:/Files/Texts", ".txt")
+path = input("Enter path and extension (D:/Files/Texts)")
+extension = input("Enter path and extension (.txt)")
+count_lines(path, extension)
+
+# "D:/Files/Texts", ".txt"
